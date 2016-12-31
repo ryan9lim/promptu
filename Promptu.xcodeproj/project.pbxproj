@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462A9A701E174737006FD30B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A9A6F1E174737006FD30B /* FBSDKLoginKit.framework */; };
+		462A9A721E174F40006FD30B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A9A711E174F40006FD30B /* FBSDKCoreKit.framework */; };
+		462A9A791E1752F8006FD30B /* FBIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A9A781E1752F8006FD30B /* FBIntegration.m */; };
 		B2B0B240CBAEC42C989C5188 /* Pods_Promptu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FECE72C8714DEE47FE7B48A /* Pods_Promptu.framework */; };
 		BD3B4FCB1D504721006BEC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B4FCA1D504721006BEC84 /* AppDelegate.swift */; };
 		BD3B4FCD1D504721006BEC84 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B4FCC1D504721006BEC84 /* FirstViewController.swift */; };
@@ -41,6 +44,11 @@
 		120DF4020C5B4A8AC9DACA35 /* Pods-PromptuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuUITests/Pods-PromptuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		265EB665D0C92CD45F453F14 /* Pods-PromptuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuUITests/Pods-PromptuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3941B8E244EB531644671A51 /* Pods_PromptuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromptuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462A9A6F1E174737006FD30B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		462A9A711E174F40006FD30B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		462A9A781E1752F8006FD30B /* FBIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBIntegration.m; sourceTree = "<group>"; };
+		462A9A7A1E1753AA006FD30B /* Promptu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Promptu-Bridging-Header.h"; sourceTree = "<group>"; };
+		462A9A7B1E1754AE006FD30B /* FBIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBIntegration.h; sourceTree = "<group>"; };
 		5FD24CBC4F8F54531DB18DDD /* Pods-Promptu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promptu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Promptu/Pods-Promptu.release.xcconfig"; sourceTree = "<group>"; };
 		6FECE72C8714DEE47FE7B48A /* Pods_Promptu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promptu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EACB7B6F66B80BB3153B69 /* Pods-PromptuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromptuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromptuTests/Pods-PromptuTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462A9A701E174737006FD30B /* FBSDKLoginKit.framework in Frameworks */,
+				462A9A721E174F40006FD30B /* FBSDKCoreKit.framework in Frameworks */,
 				B2B0B240CBAEC42C989C5188 /* Pods_Promptu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +117,8 @@
 		ACC1323CF28B916A782E4A65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				462A9A711E174F40006FD30B /* FBSDKCoreKit.framework */,
+				462A9A6F1E174737006FD30B /* FBSDKLoginKit.framework */,
 				6FECE72C8714DEE47FE7B48A /* Pods_Promptu.framework */,
 				9971CC8AA32C1A14791EDDD2 /* Pods_PromptuTests.framework */,
 				3941B8E244EB531644671A51 /* Pods_PromptuUITests.framework */,
@@ -146,6 +158,9 @@
 				BD3B4FD31D504721006BEC84 /* Assets.xcassets */,
 				BD3B4FD51D504721006BEC84 /* LaunchScreen.storyboard */,
 				BD3B4FD81D504721006BEC84 /* Info.plist */,
+				462A9A781E1752F8006FD30B /* FBIntegration.m */,
+				462A9A7B1E1754AE006FD30B /* FBIntegration.h */,
+				462A9A7A1E1753AA006FD30B /* Promptu-Bridging-Header.h */,
 			);
 			path = Promptu;
 			sourceTree = "<group>";
@@ -448,6 +463,7 @@
 			files = (
 				BD3B4FCF1D504721006BEC84 /* SecondViewController.swift in Sources */,
 				BD3B4FCB1D504721006BEC84 /* AppDelegate.swift in Sources */,
+				462A9A791E1752F8006FD30B /* FBIntegration.m in Sources */,
 				BD3B4FCD1D504721006BEC84 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,10 +607,17 @@
 			baseConfigurationReference = E73E91B2A3229D0CE4AB7987 /* Pods-Promptu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Promptu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dailygummies.Promptu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Promptu/Promptu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -603,10 +626,16 @@
 			baseConfigurationReference = 5FD24CBC4F8F54531DB18DDD /* Pods-Promptu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Promptu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dailygummies.Promptu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Promptu/Promptu-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -681,6 +710,7 @@
 				BD3B4FF31D504722006BEC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD3B4FF41D504722006BEC84 /* Build configuration list for PBXNativeTarget "PromptuTests" */ = {
 			isa = XCConfigurationList;
@@ -689,6 +719,7 @@
 				BD3B4FF61D504722006BEC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD3B4FF71D504722006BEC84 /* Build configuration list for PBXNativeTarget "PromptuUITests" */ = {
 			isa = XCConfigurationList;
@@ -697,6 +728,7 @@
 				BD3B4FF91D504722006BEC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
