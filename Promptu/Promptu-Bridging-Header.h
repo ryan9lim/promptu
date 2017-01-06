@@ -11,3 +11,6 @@
 
 
 #endif /* Promptu_Bridging_Header_h */
+
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
